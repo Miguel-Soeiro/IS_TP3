@@ -1,0 +1,12 @@
+fazer mais brokers
+
+docker exec -it broker1 /bin/bash
+create a Producer
+create a Container
+create a Topic
+what happens when you create a producer for a topic and already have the producer created?
+kafja-console-consumer --bootstrap-server internal_//broker1:9092
+docker ps-a
+psql -u postrgres
+
+criar um docker compose destributed(para varios brokers)
